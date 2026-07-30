@@ -1,21 +1,18 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
-    int num1, num2, sum;
+    int a;
 
-    // Taking input
-    cout << "Enter first number: ";
-    cin >> num1;
+    cout << "Enter a number: ";
+    cin >> a;
 
-    cout << "Enter second number: ";
-    cin >> num2;
+    cout << "Original Value: " << a << endl;
 
-    // Calculating sum
-    sum = num1 + num2;
+    a++; // Increment operator
 
-    // Displaying result
-    cout << "Sum = " << sum << endl;
+    cout << "After Increment: " << a << endl;
 
     return 0;
 }
