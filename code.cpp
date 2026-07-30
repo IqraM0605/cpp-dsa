@@ -2,32 +2,20 @@
 using namespace std;
 int main()
 {
-    string fullname = "Iqra Mulla";
-    char grade = 'A';
-    int value = grade;
-    float PI = 3.14f;
-    bool isRegistered = true;
-    double price = 120.98;
-    int newPrice = (int)price;
-    int a = 12, b = 8;
-    int sum = a + b;
-    cout << !(3 > 5) << endl;
-    cout << "differernce" << " = " << (a - b) << endl;
-    cout << "division" << " = " << (a / b) << endl;
-    cout << "product" << " = " << (a * b) << endl;
-    cout << "modulo" << " = " << (a % b) << endl;
-    cout << sum << endl;
-    cout << newPrice << endl;
-    cout << value << endl;
-    cout << PI << endl;
-    cout << isRegistered << endl;
-    cout << grade << endl;
-    cout << fullname << endl;
-    cout << price << endl;
-    int age;
-    cout << "Enter your age: ";
-    cin >> age;
-    cout << "Your age is: " << age << endl;
+    int num1, num2, sum;
+
+    // Taking input
+    cout << "Enter first number: ";
+    cin >> num1;
+
+    cout << "Enter second number: ";
+    cin >> num2;
+
+    // Calculating sum
+    sum = num1 + num2;
+
+    // Displaying result
+    cout << "Sum = " << sum << endl;
 
     return 0;
 }
