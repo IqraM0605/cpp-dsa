@@ -3,16 +3,11 @@ using namespace std;
 
 int main()
 {
-    int a;
+    int a = 5;
+    int b = a++;
 
-    cout << "Enter a number: ";
-    cin >> a;
-
-    cout << "Original Value: " << a << endl;
-
-    a++; // Increment operator
-
-    cout << "After Increment: " << a << endl;
+    cout << "a = " << a << endl;
+    cout << "b = " << b << endl;
 
     return 0;
 }
