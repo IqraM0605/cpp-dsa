@@ -11,6 +11,7 @@ int main()
     int newPrice = (int)price;
     int a = 12, b = 8;
     int sum = a + b;
+    cout << (3 > 5) << endl;
     cout << "differernce" << " = " << (a - b) << endl;
     cout << "division" << " = " << (a / b) << endl;
     cout << "product" << " = " << (a * b) << endl;
