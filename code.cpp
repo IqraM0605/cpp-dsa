@@ -3,10 +3,15 @@ using namespace std;
 
 int main()
 {
-    int n = 6;
+    int n = 20;
+    int sum = 0;
+
     for (int i = 1; i <= n; i++)
     {
-        }
-    cout << endl;
+        sum = sum + i;
+    }
+
+    cout << "Sum = " << sum << endl;
+
     return 0;
 }
