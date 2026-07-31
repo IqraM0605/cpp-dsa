@@ -3,16 +3,12 @@ using namespace std;
 
 int main()
 {
-    int n;
-    cout << "Enter a number:";
-    cin >> n;
-    if (n % 2 == 0)
+    int count = 1;
+    while (count <= 100)
     {
-        cout << "even number \n";
+        cout << count << " ";
+        count++;
     }
-    else
-    {
-        cout << "odd number \n";
-    }
+    cout << endl;
     return 0;
 }
