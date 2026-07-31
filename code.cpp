@@ -3,12 +3,10 @@ using namespace std;
 
 int main()
 {
-    int count = 1;
-    while (count <= 100)
+    int n = 6;
+    for (int i = 1; i <= n; i++)
     {
-        cout << count << " ";
-        count++;
-    }
+        }
     cout << endl;
     return 0;
 }
