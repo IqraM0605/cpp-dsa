@@ -3,26 +3,23 @@ using namespace std;
 
 int main()
 {
-    int n = 20;
-
-    cout << "Even Numbers: ";
-    for (int i = 1; i <= n; i++)
+    int n = 9;
+    bool isPrime = true;
+    for (int i = 2; i <= n - 1; i++)
     {
-        if (i % 2 == 0)
+        if (n % i == 0)
         {
-            cout << i << " ";
+            isPrime = false;
+            break;
         }
     }
-
-    cout << endl;
-
-    cout << "Odd Numbers: ";
-    for (int i = 1; i <= n; i++)
+    if (isPrime)
     {
-        if (i % 2 != 0)
-        {
-            cout << i << " ";
-        }
+        cout << n << " is a prime number.\n";
+    }
+    else
+    {
+        cout << n << " is not a prime number.\n";
     }
 
     return 0;
