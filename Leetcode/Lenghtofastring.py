@@ -10,3 +10,10 @@ class Solution:
 
         # Maximum length found
         maxLength = 0
+        print("Input: dvdf")
+print("Output:", obj.lengthOfLongestSubstring("dvdf"))
+
+print()
+
+print("Input: anviaj")
+print("Output:", obj.lengthOfLongestSubstring("anviaj"))
