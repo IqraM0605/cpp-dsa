@@ -20,3 +20,12 @@ print("Output:", obj.lengthOfLongestSubstring("anviaj"))
 print(f'Input: "abcabcbb"')
 print(f'Longest Length: {obj.lengthOfLongestSubstring("abcabcbb")}')
 print("-" * 30)
+def main():
+    obj = Solution()
+
+    print(obj.lengthOfLongestSubstring("abcabcbb"))
+    print(obj.lengthOfLongestSubstring("bbbbb"))
+    print(obj.lengthOfLongestSubstring("pwwkew"))
+
+if __name__ == "__main__":
+    main()
