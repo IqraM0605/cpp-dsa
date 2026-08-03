@@ -29,3 +29,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    # Time Complexity: O(n)
+# Space Complexity: O(min(n, unique characters))
