@@ -17,3 +17,6 @@ print()
 
 print("Input: anviaj")
 print("Output:", obj.lengthOfLongestSubstring("anviaj"))
+print(f'Input: "abcabcbb"')
+print(f'Longest Length: {obj.lengthOfLongestSubstring("abcabcbb")}')
+print("-" * 30)
